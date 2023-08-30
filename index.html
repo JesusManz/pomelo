@@ -3,9 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+<title>POMELO ANGELS</title>
 <style>
   body {
     margin: 0;
@@ -89,7 +91,7 @@ a{
   color: blue;
 }
 img {
-  width: 300px;
+  width: 350px;
   border: solid 1px black;
 }
 .header-picture {
@@ -99,10 +101,14 @@ img {
     justify-content: center;
 }
 .diseño-picture{
-    width: 350px;
+    width: 300px;
     border: none;
     margin-top: 15px;
 
+}
+.color-picture{
+    width: 200px;
+    border: solid 1px black;
 }
 
 
@@ -115,13 +121,21 @@ img {
           width: 80%;
           margin: 5% 0;
           background-color: none;
+          padding: 5px;
+
       }
       img {
-        width: 150px;
+        width: 250px;
       }
       .header-picture {
         width: 180px;
       }
+
+      .diseño-picture{
+          width: 220px;
+          border: none;
+          margin-top: 15px;
+        }
 
       .title {
         padding: 40px;
@@ -136,35 +150,61 @@ img {
 
       }
       a.two {
-        font-family: 'EB Garamond', serif;
+        font-family: "Times New Roman", Times, serif;
         font-size: 16px;
         line-height: 20px;
         font-weight: 500;
         color: black;
         text-decoration: none;
       }
-      p{
-          font-family: 'EB Garamond', serif;
-          font-size: 16px;
-          line-height: 20px;
-          font-weight: 400;
-
-    }
+      a.button {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+      }
 
       h1{
-          font-family: 'EB Garamond', serif;
-          font-size: 16px;
-          line-height: 20px;
-          font-weight: 500;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 600;
+        font-size: 20px;
+        font-style: italic;
+        color: black;
+
+
+      }
+
+      p{
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 400;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 22px;
+
+      }
+
+      h2{
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 400;
+        font-size: 20px;
+        font-style: italic;
+        color: white;
+        background-color: blue;
 
 }
+      .color-picture{
+          width: 100px;
+          border: solid 1px black;
+      }
+
+
 }
-
-
 
 
 </style>
-<title>Pomelo Clothes</title>
+<title>POMELO ANGELS</title>
 </head>
 <body>
   <div class="header">
@@ -199,14 +239,14 @@ img {
       <img src="hoodie_1.png" alt="Hoodie">
           <p>He elegido este color para imitar el cielo nocturno. También porque las prendas negras son un go-to y quedan genial con todo.</p>
           <h1>Precio: 35€</h1>
-        <a href="https://buy.stripe.com/14kg2qgtScko8qAaEH" class="button" target="_blank">Comprar</a>
+        <a href="https://buy.stripe.com/cN2bJccExasJ5Us9AE" class="button" target="_blank">Comprar</a>
     </div>
     <div class="column">
       <h1>Azul</h1>
       <img src="hoodie_2.png" alt="Hoodie">
           <p>Este color es el que todos llamáis "azul POMELO" y sentí que ya era hora de crear una prenda usándolo.</p>
           <h1>Precio: 35€</h1>
-        <a href="https://buy.stripe.com/14kg2qgtScko8qAaEH" class="button" target="_blank">Comprar</a>
+        <a href="https://buy.stripe.com/5kA14y9sleIZgz6eUZ" class="button" target="_blank">Comprar</a>
     </div>
 
   </div>
@@ -218,30 +258,46 @@ img {
       <h1>Angel tee</h1>
       <img src="camiseta_1.png" alt="Camiseta">
           <p>Igual que la hoodie, pero en formato camiseta para aquellas personas que prefieran una cami en vez de una hoodie.</p>
-          <a href="https://buy.stripe.com/14kg2qgtScko8qAaEH" class="button" target="_blank">Comprar</a>
+          <h1>Precio: 15€</h1>
+          <a href="https://buy.stripe.com/fZe3cGdIBdEVeqY3ci" class="button" target="_blank">Comprar</a>
     </div>
     <div class="column">
       <h1>Classic tee</h1>
       <img src="camiseta_2.png" alt="Camiseta">
           <p>Esta camiseta fue un one off y la llevo a diario, es mi classic look. Quizás os mole a vosotros también.</p>
-          <a href="https://buy.stripe.com/14kg2qgtScko8qAaEH" class="button" target="_blank">Comprar</a>
+          <h1>Precio: 15€</h1>
+          <a href="https://buy.stripe.com/9AQcNg4816ct3Mk5kr" class="button" target="_blank">Comprar</a>
     </div>
   </div>
   <div class="container">
   <div class="column">
     <hr style="height:1px;border-width:0px;color:black;background-color:black">
     <h1>¿Cómo hago una compra?</h1>
-    <p>Para comprar, pincha en el botón debajo de la prenda y te llevará a una plataforma de pago llamada Stripe. Aquí podrás rellenar todos tus datos de pago y envío junto a la talla (esto se pone en el comentario).</p>
+    <p>Para comprar, pincha en el botón debajo de la prenda y te llevará a una plataforma de pago llamada Stripe. Aquí podrás rellenar todos tus datos de pago y envío junto a la talla, no te olvides de esto!</p>
     <p>En caso de querer comprar más de una prenda, tendrás que hacer cada pedido por separado porque aún no sé programar la opción de crear un carrito 😅 — Lo siento! En este caso, escríbeme también para confirmarlo!</p>
+    <p>Los gastos de envío están incluidos para cualquier país.</p>
     <hr style="height:1px;border-width:0px;color:black;background-color:black">
     <h1>Guía de tallas</h1>
     <h1>Hoodie</h1>
     <img src="talla_hoodie.png" alt="Camiseta">
     <h1>Camiseta</h1>
     <img src="talla_tee.png" alt="Camiseta">
+    <hr style="height:1px;border-width:0px;color:black;background-color:black">
+    <h1>Información extra</h1>
+    <p>Como puedes apreciar las imágenes mostradas en esta web son mockups. He intentado ser lo más parecida a la realidad posible pero si todavía te quedan dudas, aquí tienes los colores reales de las dos sudaderas:</p>
+    <p>Ambas sudaderas tienen cordones en la capucha y elástico en los puños y cintura.</p>
+    <h1>Hoodie Negra</h1>
+    <img class= "color-picture" src="BLACK.png" alt="BLACK">
+    <h1>Hoodie Azul</h1>
+    <img class= "color-picture" src="ROYAL_BLUE.png" alt="ROYAL_BLUE">
+    <p>La camiseta tiene el cuello ajustado, es negra y muy suave.</p>
+    <p>Si compraste alguna prenda de las colecciones anteriores, te harás una idea de cómo son las prendas. Lo que me hace mucha ilusión contaros es que esta vez he usado proveedores distintos y la calidad es mucho mejor.</p>
+    <p>No le salen bolas a la sudadera ni a la camiseta ni aunque la uses de fiesta y luego como pijama. Son todoterreno.</p>
+  
+
 
       <hr style="height:1px;border-width:0px;color:black;background-color:black">
-    <h1>Gracias por estar aquí y por mostrar interés. <br> Si quieres seguirme la pista puedes hacerlo a través de <a href="https://ejjjjjjhd.substack.com/" target="_blank">mi newsletter</a> <br> o puedes seguirme en Instagram @ejjjjjjhd (son 6 j) .</h1>
+    <h1>Gracias por estar aquí y por mostrar interés. <br> Si quieres seguirme la pista puedes hacerlo a través de <a href="https://ejjjjjjhd.substack.com/" target="_blank">mi newsletter</a> <br> o puedes seguirme en Instagram @ejjjjjjhd (son 6 j).</h1>
   </div>
 </div>
 
